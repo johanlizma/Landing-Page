@@ -117,3 +117,29 @@ nav a{
     text-align: center;
     font-size: 18px;
 }
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+#quote p, #quote span{
+    width: 800px;
+
+}
+
+#quote p{
+    font-size: 36px;
+    color: #1F2937;
+    opacity: 0.75;
+}
+
+#quote span{
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
