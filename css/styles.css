@@ -1,6 +1,6 @@
 *{
     font-family:'Roboto';
-   /*border: 1px solid white;*/
+   /*border: 1px solid blue;*/
 }
 .header, .footer, #about{
     background-color: #1F2937;
@@ -76,4 +76,44 @@ nav a{
     text-decoration: none;
     border-radius: 10px;
     font-weight: 700;
+}
+
+#info{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+#info h1{
+    display: block;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.info-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info-item{
+    max-width: 180px;
+}
+
+.item-img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    width: 160px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.item-text{
+    text-align: center;
+    font-size: 18px;
 }
