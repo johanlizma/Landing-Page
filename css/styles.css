@@ -172,6 +172,7 @@ nav a{
     color: #e5e7eb;
     font-size: 18px;
     margin-top: 0;
+    opacity: 0.75;
 }
 
 .signup-button{
@@ -183,4 +184,20 @@ nav a{
     border-radius: 10px;
     font-weight: 700;
     border: 2px solid #f9faf8;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer p, .footer a{
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.footer a{
+    text-decoration: none;
 }
