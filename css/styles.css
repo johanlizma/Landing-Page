@@ -88,8 +88,7 @@ nav a{
     background-color: #ffffff;
 }
 
-#info h1{
-    display: block;
+#info h2{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -142,4 +141,46 @@ nav a{
     text-align: right;
     font-weight: bold;
     font-size: 25px;
+}
+
+#signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #ffffff;
+}
+
+.signup-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    height: 150px;
+    width: 950px;
+    border-radius: 10px;
+}
+
+.signup-text h2{
+    font-size: 25px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.signup-text p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.signup-button{
+    display: inline-block;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 32px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid #f9faf8;
 }
